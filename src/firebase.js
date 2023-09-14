@@ -5,7 +5,7 @@
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCMZ8b50wmQ0F5NidWCnv9ViPCHXYoEIqE",
+  apiKey: process.env.firebase_key,
   authDomain: "netflixclone-byrohitgupta.firebaseapp.com",
   projectId: "netflixclone-byrohitgupta",
   storageBucket: "netflixclone-byrohitgupta.appspot.com",
