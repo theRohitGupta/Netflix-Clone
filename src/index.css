@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.banner-fdbtm{
+  background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+}
+
+.row-poster::-webkit-scrollbar{
+  display: none;
+}
+
+*::-webkit-scrollbar{
+  display: none;
+}
+
+.div-gradient{
+  background: rgba(0,0,0,0.4);
+  background-image: linear-gradient(to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%);
+}
+
+.plans_screen_disabled > button{
+  background-color: gray !important;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+.plans_screen_disabled:hover{
+  opacity: 0.8 !important;
+  cursor:not-allowed;
+}
+.plan_screen_plan{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px 0; 
+ opacity: 0.8;
+ transition: all 200ms ease-in-out;
+ cursor: pointer;
+ gap: 1rem;
+}
+.plan_screen_plan:hover{
+  opacity: 1;
+}
+.redirect:hover > .tooltip{
+  transition: all 300ms ease-in-out;
+  display: block;
+}
